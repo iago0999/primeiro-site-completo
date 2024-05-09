@@ -1,0 +1,20 @@
+.content{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.header{
+    color: whitesmoke;
+    text-align: center;
+}
+.menu{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.footer{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

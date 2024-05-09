@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="aula.css/aulas.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(7, 7, 7);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(7, 7, 7);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(10, 10, 10);
+    min-height: 150px;
+}
+.content {
+    color: black;
+    background-color: rgb(250, 249, 249);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(5, 5, 5);
+    min-height: 150px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu"> MENU<!-- Aqui vai o seu menu -->
+            <ul>
+               <li><a href="#servicos">Nossos Serviços</a></li>
+                <li><a href="#equipe">Nossa Equipe</a></li>
+                <li><a href="#tratamento">Tratamento de cáries</a></li>
+                <li><a href="#restauracao">Restaurações estéticas</a></li>
+                <li><a href="#implantes">Implantes dentários</a></li>
+                <li><a href="#ortodontia">Ortodontia</a></li>
+                <li><a href="#clareamento">Clareamento dental</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pngg.png" alt="logo da clinica odontologica" width="300" align="center" >
+                    <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <form name="Contato" autocomplete="on">
+                   <label>Nome: <input type="text" name="name"></label><br>
+                   <br>
+                    <label>E-mail: <input type="email" name="email"></label><br>
+                    <br>
+                    <label>Whatsapp: <input type="text" name="text"></label><br>
+                    <br>
+                    <label>Assunto: <input type="number" name="textarea"><br>
+                    <br>
+                    <label>Mensagem</label>
+                    <textarea nmae="Mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+    
+            <div class="footer"> <!-- Aqui vai o seu rodapé -->
+               <p>Estamos ansiosos para ajudá-lo a cuidar do seu sorriso. Entre em contato conosco para marcar uma consulta ou para obter mais informações sobre nossos serviços.</p>
+               <p>Telefone: (11) 2031-5723</p>
+               <p>Email: contato@clinicaodontologica.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
